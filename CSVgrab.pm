@@ -20,8 +20,8 @@ sub capture_csv {
     my $arr = [split /,/,$lines];
     
     my $hash = {
-		        'ID'    => $arr->[0],
-		        'greet' => $arr->[1],
+		'ID'    => $arr->[0],
+		'greet' => $arr->[1],
                 'extra' => $arr->[2]
                };
     push ( @array , $hash );
